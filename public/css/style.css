@@ -1,0 +1,160 @@
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  
+  .navbar a {
+    
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .active {
+    background-color: #000;
+  }
+  
+  .navbar a:hover {
+    background-color: #827b7b;
+  }
+  
+  .navbar a.split {
+    float: right;
+    background-color: #04AA6D;
+    color: white;
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+.logo { 
+    height: 60px;
+    padding: 10px;
+}
+
+
+.add-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+.add-container, input[type=text],input[type=number], textarea, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+.add-container, input[type=submit] {
+  background-color: #fff;
+  color: #000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-container ,input[type=submit]:hover {
+  background-color: #555;
+}
+
+.add-container, label {
+  color: #fff;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.center {
+  text-align: center;
+}
+
+.card {
+  max-width: 300px;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.button:hover, a:hover {
+  opacity: 0.7;
+  color: #000;
+  background-color: #fff;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > div { 
+  margin: 10px; 
+}
+
+img {
+  border-radius: 8px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.m-top-2{
+margin-top: 1rem;
+}
+
+
+body{
+  background-image: url('https://images.pexels.com/photos/6847584/pexels-photo-6847584.jpeg');
+  color: black;
+}
+
+.logo{
+  color: #000;
+  font-size: large;
+  text-decoration: none;
+  padding:0%;
+}
+
+.justify-content-space-around{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+

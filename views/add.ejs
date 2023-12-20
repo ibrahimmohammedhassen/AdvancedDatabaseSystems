@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add House Price</title>
+  <%- include('templates/head.ejs') %>
+</head>
+
+<body>
+  <%- include('templates/header.ejs', {active: 'add' }) %>
+  <h2> Add/Update House Price</h2>
+
+  <div class="center">
+      <h1>
+        <%= locals?.addformstatus || '' %>
+      </h1>
+  </div>
+  <div class="add-container ">
+    <form action="/add" method="post">
+      <input type="text" id="id" name="id" value="<%= locals?.housePrice?._id || '' %>" placeholder="Id" hidden>
+
+      <label for="title">Title</label>
+      <input type="text" id="title" name="title" value="<%= locals?.housePrice?.title || '' %>" placeholder="title" required>
+
+      <label for="price">Price</label>
+      <input type="number" id="price" name="price" value="<%= locals?.housePrice?.price || '' %>" placeholder="price" required>
+
+      <label for="beds">Number Of Beds</label>
+      <input type="number" id="beds" name="beds" value="<%= locals?.housePrice?.beds || '' %>" placeholder="beds" required>
+
+      <label for="baths">Number of Baths</label>
+      <input type="number" id="baths" name="baths" value="<%= locals?.housePrice?.baths || '' %>" placeholder="baths" required>
+
+      <label for="receptions">Number of Receptions</label>
+      <input type="number" id="receptions" name="receptions" value="<%= locals?.housePrice?.receptions || '' %>" placeholder="receptions" required>
+           
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address" value="<%= locals?.housePrice?.address || '' %>" placeholder="address"  required>
+
+      <label for="imageUrl">Image Url</label>
+      <input type="text" id="houseImageUrl" name="houseImageUrl" value="<%= locals?.housePrice?.houseImageUrl || '' %>" placeholder="Image Url" required>
+
+      <label for="description">Description</label>
+      <input type="text" id="description" name="description" value="<%= locals?.housePrice?.description || '' %>" placeholder="Description"  required>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+  <%- include('templates/footer.ejs') %>
+
+</body>
+
+</html>
