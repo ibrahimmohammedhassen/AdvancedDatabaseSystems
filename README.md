@@ -16,7 +16,7 @@ Before diving into running the project, it's essential to ensure that your devel
 ## How to run the project:
     1- first open command in the project directory
     
-    2 - Type: ```code .``` then press enter and that will take you to Visual Studio  
+    2 - Type: (code .) then press enter and that will take you to Visual Studio  
     
     3- then you need to install the Node.js package: ```npm install``` 
 
