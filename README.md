@@ -1,17 +1,25 @@
 # Project name:
-House Price 
+```House Price``` 
 Full Stack Web- Application
 
 # Introduction:
 (.................)
 
 
+ 
+## Prerequisites
+```node.js```
+...install node.js into your machines with the latest version installed
+
+```mongoDB```
+...setting up the MongoDB as an execution for the project
+
 ## How to run the project:
-1- first open command in the project directory
-
-2 - Type: code . then press enter and that will take you to Visual Studio  
-
-3- then you need to install the Node.js package by typing: npm install 
+    1- first open command in the project directory
+    
+    2 - Type: ```code .``` then press enter and that will take you to Visual Studio  
+    
+    3- then you need to install the Node.js package: ```npm install``` 
 
 ## To run this project do the following: 
 
