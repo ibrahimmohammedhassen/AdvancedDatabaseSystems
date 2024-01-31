@@ -1,5 +1,5 @@
 # Project name:
-```House Price``` 
+House Price
 Full Stack Web- Application
 
 # Introduction:
