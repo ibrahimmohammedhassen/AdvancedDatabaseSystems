@@ -13,12 +13,28 @@ Full Stack Web- Application
 
 ## To run this project do the following: 
 
-```npm run devstart```
+```npm run devstart``` in the terminal 
 
 ## TO access the application
 
-type this localhost or use this url
+type this localhost or use this URL
 
 project Url: http://localhost:5000/
 
 mongodb://localhost:27017/
+
+```
+const mongoose = require('mongoose');
+
+mongoose.set("strictQuery", false)
+mongoose.connect('mongodb://127.0.0.1:27017/houseprice')
+.then(() => {
+console.log('App is Connected To MongoDB using Mongoose package.');
+
+
+}).catch((error) => {
+  console.error(error);
+})
+```
+
+  
