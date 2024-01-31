@@ -3,7 +3,7 @@ House Price
 
 
 # Introduction:
-before diving into running the project, it's essential to ensure that your developed environment is properly configured with the necessary prerequisites. the project relies on two key components: node.js for serverside javascript execution and MongoDB for this database operation. this web application is designed around house prices.
+Before diving into running the project, it's essential to ensure that your development environment is properly configured with the necessary prerequisites. the project relies on two key components: node.js for serverside javascript execution and MongoDB for this database operation. this web application is designed around house prices.
 
  
 ## Prerequisites
