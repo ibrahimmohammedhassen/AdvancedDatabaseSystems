@@ -23,6 +23,32 @@ Before diving into running the project, it's essential to ensure that your devel
 ## To run this project do the following: 
 
 ```npm run devstart``` in the terminal 
+```{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2",
+    "npm": "^9.6.7",
+    "to": "^0.2.9",
+    "update": "^0.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
+```
 
 ## TO access the application
 
